@@ -1,0 +1,137 @@
+body {
+    font-family: Noto Sans, sans-serif; /* Define a fonte para o corpo da página */
+    background-color: #ffffff; /* Define a cor de fundo da página */
+    color: #333; /* Define a cor do texto */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    line-height: 1.6; /* Define a altura da linha */
+}
+
+.header, .footer {
+    background: #7b00ff; /* Define a cor de fundo para o cabeçalho e rodapé */
+    color: #000000; /* Define a cor do texto para o cabeçalho e rodapé */
+    padding: 1rem 0; /* Define o preenchimento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.header h1 {
+    margin: 0; /* Remove a margem padrão */
+}
+
+.menu {
+    background: #dec0ff; /* Define a cor de fundo do menu */
+    padding: 1rem 0; /* Define o preenchimento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.menu ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove as margens padrão */
+    display: flex; /* Define a exibição como flexível */
+    justify-content: center; /* Centraliza os itens do menu */
+    gap: 1rem; /* Define o espaçamento entre os itens do menu */
+}
+
+.menu li {
+    display: inline; /* Exibe os itens da lista em linha */
+}
+
+.menu a {
+    color: #333; /* Define a cor do texto dos links */
+    text-decoration: none; /* Remove a sublinha dos links */
+    padding: 0.5rem 1rem; /* Define o preenchimento interno dos links */
+    border-radius: 5px; /* Define o arredondamento das bordas dos links */
+    transition: background-color 0.3s ease; /* Define a transição suave para a cor de fundo ao passar o mouse */
+}
+
+.menu a:hover {
+    background-color: #c484fc; /* Define a cor de fundo ao passar o mouse sobre os links */
+}
+
+.container {
+    width: 90%; /* Define a largura do contêiner */
+    max-width: 1200px; /* Define a largura máxima do contêiner */
+    margin: 20px auto; /* Define a margem superior/inferior e centraliza horizontalmente */
+    padding: 20px; /* Define o preenchimento interno */
+    background: #fff; /* Define a cor de fundo do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao contêiner */
+    border-radius: 8px; /* Define o arredondamento das bordas do contêiner */
+}
+
+h2 {
+    font-size: 2em; /* Define o tamanho da fonte para os cabeçalhos h2 */
+    margin-top: 0; /* Remove a margem superior */
+    text-align: center; /* Centraliza o texto */
+}
+
+.product-description, .features, .benefits, .screenshots {
+    margin-bottom: 0px; /* Remove a margem inferior */
+}
+
+ul {
+    list-style-type: disc; /* Define o tipo de marcador da lista */
+    padding-left: 20px; /* Define o preenchimento à esquerda */
+}
+
+ul li {
+    font-size: 1.1em; /* Define o tamanho da fonte para os itens da lista */
+    margin-bottom: 10px; /* Define a margem inferior para os itens da lista */
+}
+
+.cta {
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Define a margem superior */
+}
+
+.cta button {
+    background-color: #5400ae; /* Define a cor de fundo dos botões */
+    color: #fff; /* Define a cor do texto dos botões */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Define o preenchimento interno */
+    font-size: 1em; /* Define o tamanho da fonte */
+    cursor: pointer; /* Define o cursor como pointer */
+    margin: 0 10px; /* Define a margem horizontal */
+    border-radius: 5px; /* Define o arredondamento das bordas */
+    transition: background-color 0.3s ease; /* Define a transição suave para a cor de fundo ao passar o mouse */
+}
+
+.cta button:hover {
+    background-color: #c484fc; /* Define a cor de fundo ao passar o mouse sobre os botões */
+}
+
+.gallery {
+    display: flex; /* Define a exibição como flexível */
+    flex-wrap: wrap; /* Permite a quebra de linha dos itens */
+    gap: 10px; /* Define o espaçamento entre os itens */
+    align-items: center; /* Alinha os itens ao centro */
+}
+
+.gallery img {
+    width: 100%; /* Define a largura das imagens como 100% do contêiner pai */
+    max-width: 300px; /* Define a largura máxima das imagens */
+    border-radius: 8px; /* Define o arredondamento das bordas das imagens */
+    align-items: center; /* Alinha os itens ao centro */
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        flex-direction: column; /* Define a direção dos itens como coluna em telas menores */
+        align-items: center; /* Alinha os itens ao centro */
+    }
+
+    .cta button {
+        margin: 10px 0; /* Define a margem vertical */
+    }
+}
+
+.footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Define o preenchimento interno */
+    background: #7b00ff; /* Define a cor de fundo do rodapé */
+    color: #000000; /* Define a cor do texto do rodapé */
+}
+
+.footer p {
+    margin: 0; /* Remove a margem padrão */
+}
