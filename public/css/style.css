@@ -8,7 +8,7 @@ body {
 }
 
 .header, .footer {
-    background: #7b00ff; /* Define a cor de fundo para o cabeçalho e rodapé */
+    background: #9a3cff; /* Define a cor de fundo para o cabeçalho e rodapé */
     color: #000000; /* Define a cor do texto para o cabeçalho e rodapé */
     padding: 1rem 0; /* Define o preenchimento interno */
     text-align: center; /* Centraliza o texto */
@@ -16,7 +16,6 @@ body {
 
 .container h1 {
     margin: 0; /* Remove a margem padrão */
-    background-color: rgb(182, 142, 255);
 }
 
 .menu {
@@ -178,7 +177,7 @@ ul li {
 .footer {
     text-align: center; /* Centraliza o texto */
     padding: 10px 0; /* Define o preenchimento interno */
-    background: #7b00ff; /* Define a cor de fundo do rodapé */
+    background: #9a3cff; /* Define a cor de fundo do rodapé */
     color: #000000; /* Define a cor do texto do rodapé */
 }
 
