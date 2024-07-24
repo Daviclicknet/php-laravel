@@ -61,8 +61,10 @@
 
     <main class="container">
         <section id="product-description" class="content-section">
-            <h2>Descrição do Produto</h2>
-            <p>Nosso revolucionário Chatbot Inteligente é uma solução automatizada que foi projetada para interagir com seus clientes de uma maneira eficiente e eficaz. Este chatbot está programado para fornecer informações detalhadas sobre si mesmo, incluindo funcionalidades, vantagens e como ele pode melhorar a experiência de atendimento ao cliente da sua empresa. Em adição à resolução de dúvidas comuns, nosso chatbot fornece em tempo real um protótipo de projeto de como a comunicação interna e a comunicação externa podem fluir de uma forma mais eficiente e eficaz. Amplie a satisfação dos seus clientes com a ajuda de um serviço de atendimento de 24/7 e customize as suas interações com base nas necessidades específicas do seu público.</p>
+            <div class="rounded_box">
+                <h2 class="max-w-540px">Automatize o atendimento da sua empresa</h2> 
+                <hr class="default_hr"> <p class="max-w-560px">O Opa! Suite dispõe de agente virtual com respostas automatizadas para o seu cliente, 24 horas por dia, 7 dias por semana.</p>
+            </div>
         </section>
         <section id="features" class="content-section">
             <h2>Funções</h2>
